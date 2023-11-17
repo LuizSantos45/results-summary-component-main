@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@900&family=Work+Sans:wght@100&display=swap');
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 760px) {
+  body {
+    background-color: #f0f8ff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0px;
+  }
+
+  div#box {
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+  }
+
+  div#box > div.banner-blue {
+    border-radius: 20px;
+  }
+
+  div.box-summary > div.banner {
+    width: 90%;
+    margin: auto;
+  }
+
+  div.box-summary > div.box-color {
+    width: 90%;
+  }
+
+  div.box-summary > a {
+    width: 80%;
+    height: 30px;
+    line-height: 25px;
+    font-size: 1.1em;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+div#box {
+  background-color: #ffffff;
+}
+
+div.banner-blue {
+  background: linear-gradient(to bottom, #6C4FFB, #3C32EC );
+  background-size: cover;
+  display: grid;
+  border-radius: 0px 0px 30px 30px;
+}
+
+div.banner-blue > div.banner {
+  text-align: center;
+  color: #C1BFFE;
+  width: 90%;
+  margin: auto;
+}
+
+div.banner-blue > div.banner > h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+div.banner-blue > div.banner > div.ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #5126CE, #5026ce83, #5026ce29);
+  box-shadow: 1px 3px 10px #0000000b;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 30px auto auto auto;
+}
+
+div.banner-blue > div.banner > div.ball > h2 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #FFFFFF;
+}
+
+div.banner-blue > div.banner > div.ball > h2 > span.of100 {
+  display: flex;
+  text-align: center;
+  font-size: 0.26em;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  margin-top: -6px;
+  color: #9183F6;
+}
+
+div.banner-blue > div.banner > h3 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.8em;
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+div.banner-blue > div.banner > p {
+  width: 70%;
+  margin: auto;
+  font-size: 1em;
+  margin: -14px auto 20px auto;
+}
+
+div.box-summary {
+  width: 80%;
+  margin: auto;
+}
+
+div.banner > h2 {
+  text-align: start;
+  font-size: 1.2em;
+  margin-top: 25px;
+  font-weight: 570;
+}
+
+div.box-color {
+  display: flex;
+  background-color: #3434340b;
+  width: 100%;
+  margin: 12px auto auto;
+  border-radius: 10px;
+  border: 1px solid  #00000008;
+}
+
+div.box-color > img {
+  margin-left: 10px;
+}
+
+div.box-color > h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: start;
+  margin-left: 10px;
+}
+
+div.box-color > h3 {
+  margin-left: auto;
+  position: relative;
+  left: -10px;
+  color: #313B5A;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+div.box-color > h3 > span.wheit {
+  font-weight: 480;
+  color: #9094A0;
+}
+
+div#red-box {
+  background-color: #FEF6F5;
+  color: #F4777C;
+}
+
+div#yellow-box {
+  background-color: #FFFAF3;
+  color: #EDB94F;
+}
+
+div#green-box {
+  background-color: #F2FAFA;
+  color: #20AF88;
+}
+
+div#blue-box {
+  background-color: #F3F3FC;
+  color: #626BB0;
+}
+
+a {
+  background-color: #2F3B59;
+  display: block;
+  padding: 17px;
+  text-align: center;
+  border-radius: 35px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 25px auto 20px auto;
+}
+
+a:hover {
+  background-color: #2f3b59e5;
+  position: relative;
+}
